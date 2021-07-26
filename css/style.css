@@ -1,0 +1,163 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: rgb(252, 249, 246);
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+}
+#conatiner
+{
+    margin:0 auto;
+    width: 850px;
+
+}
+#menu
+{
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+
+}
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    margin-left: -25px;
+}
+#menu ul li a{
+    color: rgb(250, 246, 246);
+    font-size: 20px;
+    padding: 30px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: white;
+    border-bottom: 1px  rgb(238, 6, 84);
+}
+.logo{
+    background:url(../img/ifruta.jpeg);
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    padding-left: 71px !important;
+    padding-right : 71px !important;
+    background-size: 50px 50px;
+    background-position: center;
+}
+.logo:hover
+{
+    background-color: black;
+}
+
+#slider
+{
+    background: url(../img/foto4.jpg);
+    height: 450px;
+    margin-top: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    align-content: center;
+    box-shadow: inset 1px 1px 20px black;
+    background-position: center;
+    opacity: 0.5 ;
+    background-color: black;
+
+}
+
+h2
+{
+    color: #fa7304;
+    font-size: 28px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 5px black;
+}
+.conteudo
+{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+    background-color: rgb(249, 251, 252);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#conteudo p{
+    font-size: 14px;
+    padding: 40px;
+}
+#formulario
+{
+    background-color: #a3a3a3;
+    margin-top: -20px;
+    padding: 40px;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.6);
+
+}
+#formulario form
+{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 400px;
+}
+textarea
+{
+    height: 100px;
+    width: 400px;
+}
+.campo
+{
+    background: gray;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+.campo:focus, textarea:focus
+{
+font-size: 14px;
+outline: none;
+box-shadow: inset 1px 1px 10px orange;
+
+}
+.botao
+{
+    background: #ff8a00;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 20px;
+    pointer-events: painted;
+}
+.botao:hover
+{
+    background-color: black;
+    box-shadow: inset 1px 1px 10px orange;
+
+
+}
+#formulario label
+{
+    color: pink;
+
+   float: left;
+}
+#footer
+{
+    color: white;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
